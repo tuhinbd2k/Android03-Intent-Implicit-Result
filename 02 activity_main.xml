@@ -8,7 +8,7 @@
     android:layout_margin="10dp"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.tuhin.android03_newactivitysendreceivedata.MainActivity">
+    tools:context="com.example.tuhin.android03_intentimplicitresult.MainActivity">
 
     <LinearLayout
         android:id="@+id/layOutHeader"
@@ -27,7 +27,7 @@
 
         <TextView
             android:id="@+id/lblSubHeader"
-            android:text="Text Send to New Activity and Receive"
+            android:text="Implicit Intent for Result"
             android:textSize="18sp"
             android:gravity="center"
             android:layout_width="match_parent"
