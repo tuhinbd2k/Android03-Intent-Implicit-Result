@@ -66,7 +66,6 @@ public class MainActivity extends AppCompatActivity {
                         intent.putExtra("nameKey", sName);
                         intent.putExtra("emailKey", sEmail);
                         intent.putExtra("mobileKey", sMobile);
-//                        startActivity(intent);
                         startActivityForResult(intent, 0);
                     }
                 }
